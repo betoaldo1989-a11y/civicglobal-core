@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================================
+# REGLAS DE SEGURIDAD EXCLUSIVAS CIVICGLOBAL
+# ==========================================
+
+# Base de Datos Vectorial Core (Privacidad Legal)
+chroma_db/
+.chromadb/
+
+# Almacenamiento Local de Datos y Multimedia
+*.mp4
+*.avi
+*.pdf
+*.txt
+!leyes_genesis/*.txt
+
+# Credenciales y Llaves Criptográficas
+.env
+*.pem
+*.key
+.keys/

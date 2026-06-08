@@ -1,0 +1,5 @@
+langchain==0.1.16
+chromadb==0.4.24
+ollama==0.1.8
+pypdf==4.2.0
+tiktoken==0.6.0
